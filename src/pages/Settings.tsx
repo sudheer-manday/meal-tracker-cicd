@@ -273,7 +273,7 @@ export function Settings() {
               onClick={() => setConfirmErase(true)}
               className="flex w-full items-center justify-center gap-1.5 rounded-lg bg-rose-50 py-2 text-sm font-medium text-rose-600 hover:bg-rose-100 dark:bg-rose-950/30 dark:text-rose-300"
             >
-              <Trash2 size={14} /> Delete meal hist &amp; alerts
+              <Trash2 size={14} /> Delete meal history &amp; alerts
             </button>
           ) : (
             <div className="space-y-2">
